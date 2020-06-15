@@ -18,15 +18,17 @@ background: aqua;
 margin-bottom: 5px;
 }
   
-#burger-image {
-width: 200px;
-height: 350px;
-padding: 5px;
-margin-top: 10px;
+#burgerphoto {
+width: 25px;
+height: 25px;
+padding: 25px;
+padding-left: 50px;
+margin-top: 25px;
 display: block;
-margin-left: auto;
+margin-left: 50px;
 margin-right: auto;
-width: 25%;
+border-radius: 100%;
+align-self: center;
 }
   
 body {
