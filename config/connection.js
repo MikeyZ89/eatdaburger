@@ -8,7 +8,9 @@ var connection = mysql.createConnection({
   password: "",
   database: "burgers_db",
 });
-
+if (process.env.JAWSDB_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
+};
 // Make connection.
 connection.connect(function (err) {
   if (err) {
@@ -17,15 +19,5 @@ connection.connect(function (err) {
   }
   console.log("connected as id " + connection.threadId);
 });
-if (process.env.JAWSDB_URL) {
-  connection = mysql.createConnection(process.env.JAWSDB_URL);
-} else {
-  connection = mysql.createConnection({
-    host: 'ijj1btjwrd3b7932.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-    user: 'ylj0nm9b9mxw4igb',
-    password: 'h9u7d690q98pyi8s',
-    database: 'qpa0ukkqsitnnypj'
-  });
-};
 // Export connection for our ORM to use.
 module.exports = connection;
