@@ -23,8 +23,8 @@ if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'h9u7d690q98pyi8s',
-    database: 'qpa0ukkqsitnnypj',
+    password: 'hacktheplanet',
+    database: 'todoagain_db'
   });
 };
 // Export connection for our ORM to use.
