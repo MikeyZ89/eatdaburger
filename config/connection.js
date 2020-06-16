@@ -21,10 +21,10 @@ if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'hacktheplanet',
-    database: 'todoagain_db'
+    host: 'ijj1btjwrd3b7932.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    user: 'ylj0nm9b9mxw4igb',
+    password: 'h9u7d690q98pyi8s',
+    database: 'qpa0ukkqsitnnypj'
   });
 };
 // Export connection for our ORM to use.
