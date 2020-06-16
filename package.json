@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeyZ89/eatdaburger"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
